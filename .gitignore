@@ -46,15 +46,15 @@ SourceArt/**/*.png
 SourceArt/**/*.tga
 
 # Binary Files
-Binaries/*
-Plugins/*/Binaries/*
+first_third_person/Binaries/*
+first_third_person/Plugins/*/Binaries/*
 
 # Builds
 Build/*
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 !Build/*/
-Build/*/**
+first_third_person/Build/*/**
 !Build/*/PakBlacklist*.txt
 
 # Don't ignore icon files in Build
@@ -67,8 +67,8 @@ Build/*/**
 Saved/*
 
 # Compiled source files for the engine to use
-Intermediate/*
-Plugins/*/Intermediate/*
+first_third_person/Intermediate/*
+first_third_person/Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
-DerivedDataCache/*
+first_third_person/DerivedDataCache/*
